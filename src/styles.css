@@ -1,0 +1,55 @@
+.content {
+    min-height: 100%;
+  }
+  h5 {
+    color: white;
+  }
+  #footer {
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #dcard:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+  /* #dcard h5 {
+    color: black;
+  } */
+  .hoverclass h5 {
+    color: black;
+  }
+  .hoverclass:hover {
+    top: -10px;
+  }
+  .hoverclass {
+    border: 0px;
+    width: 15rem;
+    background-color: white;
+  }
+  .singlehoverclass {
+    border: 0px;
+    width: 15rem;
+    background-color: white;
+  }
+  .opBtn {
+    width: 100px;
+    border-radius: 40px;
+  }
+  
