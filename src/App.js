@@ -15,10 +15,10 @@ import Login from "./Login";
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/faculty_react">
         <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/" element={<HeadFoot />}>
+          <Route path="/faculty_react" element={<Login />}></Route>
+          <Route path="/faculty_react" element={<HeadFoot />}>
             <Route path="/HomeInfo" element={<HomeInfo />}></Route>
             <Route path="/FacName" element={<FacName />}></Route>
             <Route path="/FacDetails" element={<FacDetails />}></Route>
