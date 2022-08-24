@@ -1,6 +1,4 @@
 import "./styles.css";
-// import Fetch from "./Fetch";
-// import Header from "./Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HeadFoot from "./Nav";
 import FacName from "./FacName";
@@ -15,10 +13,10 @@ import Login from "./Login";
 export default function App() {
   return (
     <>
-      <BrowserRouter basename="/faculty_react">
+      <BrowserRouter>
         <Routes>
-          <Route path="/faculty_react" element={<Login />}></Route>
-          <Route path="/faculty_react" element={<HeadFoot />}>
+          <Route path="/" element={<Login />}></Route>
+          <Route path="/" element={<HeadFoot />}>
             <Route path="/HomeInfo" element={<HomeInfo />}></Route>
             <Route path="/FacName" element={<FacName />}></Route>
             <Route path="/FacDetails" element={<FacDetails />}></Route>
