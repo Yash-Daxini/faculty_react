@@ -12,7 +12,7 @@ import Login from "./Login";
 
 export default function App() {
   return (
-    <>
+    <>  
       <BrowserRouter basename="/faculty_react">
         <Routes>
           <Route path="/faculty_react" element={<Login />}></Route>
