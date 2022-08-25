@@ -4,7 +4,7 @@ const HomeInfo = () => {
         className="container text-center my-3 text-black content"
         style={{ border: "1px" }}
       >
-        <h1 className="my-3">Faculty Portal Darshan University</h1>
+        <h1 className="my-4">Faculty Portal Darshan University</h1>
         <h3>
           <ul
             style={{
@@ -13,7 +13,7 @@ const HomeInfo = () => {
             }}
           >
             <div className="card border-0">
-              <li className="my-3">
+              <li className="my-4">
                 <div className="card-body">Faculty Details</div>
               </li>
             </div>

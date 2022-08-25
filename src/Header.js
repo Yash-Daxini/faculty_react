@@ -58,7 +58,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="./">
+                <Link className="nav-link active" aria-current="page" to="./faculty_react">
                   <h5>Log Out</h5>
                 </Link>
               </li>
